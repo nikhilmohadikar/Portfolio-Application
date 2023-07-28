@@ -730,7 +730,6 @@ span {
     flex-wrap: wrap;
     padding: 2rem 9%;
     background: var(--second-bg-color);
-    margin-top: 11%;
     color: var(--text-color);
 }
 
@@ -1132,4 +1131,29 @@ span {
     .textarea-field textarea {
         max-width: 40rem;
     }
+}
+
+
+
+/*************************** Scroll Bar Line ***************************/
+
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(1, 2, 2);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #b4afaf;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #fff;
 }
